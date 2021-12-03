@@ -117,9 +117,16 @@ test("displays plants in cart", () => {
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What are the main differences between a stateful and a functional component?
+-  The literal difference is that one has state, and the other doesn't. That means the stateful components are keeping track of changing data.
 
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
+-  The componentWillMount lifecycle hook is an ideal choice when it comes to updating business logic, app configuration updates, and API calls.
+   The componentWillUpdate is used during the updating phase of the React lifecycle.
 
 3. Define stateful logic.
+-  Stateful logic refers to a form of computational logic in which the same devices both store logic values and perform logical operations.
 
 4. What are the three step of creating a successful test? What is done in each phase? 
+-  End to end test: Simulates a user clicking through a site
+   Integration test: Verify that several components work together
+   Unit test: Test individual functions/components
